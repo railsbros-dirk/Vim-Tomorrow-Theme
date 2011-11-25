@@ -19,6 +19,7 @@ let s:purple = "c397d8"
 let s:pink = "f9266d"
 let s:window = "4d5057"
 let s:pink = "f9266d"
+let s:window = "5e5e5e"
 
 set background=dark
 hi clear
