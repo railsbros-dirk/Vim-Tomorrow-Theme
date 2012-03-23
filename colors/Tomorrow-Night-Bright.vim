@@ -17,7 +17,7 @@ let s:aqua = "70c0b1"
 let s:blue = "7aa6da"
 let s:purple = "c397d8"
 let s:pink = "f9266d"
-let s:window = "5e5e5e"
+let s:window = "4d5057"
 
 set background=dark
 hi clear
@@ -264,7 +264,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
 	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "italic")
-	call <SID>X("Todo", s:comment, s:background, "")
+	call <SID>X("Todo", s:yellow, s:background, "")
 	call <SID>X("Title", s:comment, "", "")
 	call <SID>X("Identifier", s:red, "", "none")
 	call <SID>X("Statement", s:foreground, "", "")
@@ -288,6 +288,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" C Highlighting
 	call <SID>X("cType", s:yellow, "", "")
 	call <SID>X("cStorageClass", s:purple, "", "")
+	call <SID>X("cConditional", s:purple, "", "")
+	call <SID>X("cRepeat", s:purple, "", "")
 
 	" PHP Highlighting
 	call <SID>X("phpVarSelector", s:red, "", "")
