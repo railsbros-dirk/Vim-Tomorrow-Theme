@@ -17,8 +17,6 @@ let s:aqua = "70c0b1"
 let s:blue = "7aa6da"
 let s:purple = "c397d8"
 let s:pink = "f9266d"
-let s:window = "4d5057"
-let s:pink = "f9266d"
 let s:window = "5e5e5e"
 
 set background=dark
@@ -310,7 +308,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("rubyCurlyBlock", s:orange, "", "")
 	call <SID>X("rubyStringDelimiter", s:green, "", "")
 	call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
-	call <SID>X("rubyConditional", s:purple, "", "")
+	call <SID>X("rubyConditional", s:pink, "", "")
 	call <SID>X("rubyRepeat", s:purple, "", "")
 
 	" Python Highlighting
