@@ -16,7 +16,7 @@ let s:green = "b9ca4a"
 let s:aqua = "70c0b1"
 let s:blue = "7aa6da"
 let s:purple = "c397d8"
-let s:pink = "f9266d"
+let s:pink = "ed5291"
 let s:window = "5e5e5e"
 
 set background=dark
@@ -264,7 +264,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
 	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "italic")
-	call <SID>X("Todo", s:comment, s:background, "")
+	call <SID>X("Todo", s:pink, s:background, "")
 	call <SID>X("Title", s:comment, "", "")
 	call <SID>X("Identifier", s:red, "", "none")
 	call <SID>X("Statement", s:foreground, "", "")
